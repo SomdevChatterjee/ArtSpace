@@ -1,0 +1,18 @@
+import React, {useEffect} from 'react';
+import { Community } from '../../atoms/communitiesAtom';
+
+type PostsProps = {
+    communityData:Community;
+};
+
+const Posts:React.FC<PostsProps> = () => {
+    // useAuth State
+    const getPosts = async () =>{
+        try
+    };
+    useEffect(()=>{
+        getPosts();
+    },[]);
+    return <div>Posts</div>
+}
+export default Posts;

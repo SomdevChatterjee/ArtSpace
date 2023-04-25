@@ -1,0 +1,16 @@
+import React from 'react';
+import { BsArrowRightCircle, BsChatDots } from 'react-icons/bs';
+import {
+	IoFilterCircleOutline,
+	IoNotificationsCircleOutline,
+	IoVideocamOutline,
+} from 'react-icons/io5';
+import { GrAdd } from 'react-icons/gr';
+type IconsProps = {};
+
+const Icons: React.FC<IconsProps> = () => {
+	return (
+        
+    );
+};
+export default Icons;
